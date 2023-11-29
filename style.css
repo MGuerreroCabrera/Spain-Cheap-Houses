@@ -529,6 +529,10 @@ footer > p {
         padding: var(--sch-padding-m);
     }
 
+    .btn-hero > img{
+        width: 30px;
+    }
+
     section.flex-container-row > img {
         width: 100%;
         min-width: 0px;
