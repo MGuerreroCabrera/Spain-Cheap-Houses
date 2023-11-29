@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@100;300&family=Mulish:wght@300&family=Oswald:wght@500&family=Raleway&family=Rubik:wght@400;500&display=swap');
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/Inter/static/Inter-Black.ttf);
+    font-weight: normal;
+    font-size: normal;
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/Inter/static/Inter-Bold.ttf);
+    font-weight: bold;
+    font-size: bold;
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/Inter/static/Inter-ExtraBold.ttf);
+    font-weight: bolder;
+    font-size: bolder;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/Inter/static/Inter-Light.ttf);
+    font-weight: lighter;
+    font-size: lighter;
+  }
 
 * {
     margin: 0;
@@ -12,13 +36,14 @@ body {
     height: 100svh;
 }
 
-h1, h2, h3, h4, h5, h6, p, label, span, a {
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Mulish', sans-serif; */
-    /* font-family: 'Oswald', sans-serif; */
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
+h1 {
     font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+h2, h3, h4, h5, h6, p, label, span, a {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
 }
 
  /* Variables */
