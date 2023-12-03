@@ -622,6 +622,9 @@ footer > p {
         border-radius: var(--sch-border-radius-s);
         padding: var(--sch-padding-s);
     }
+    #featured-listings > p {
+        text-align: center;
+    }
     #gallery > article > div {
         height: 35%;
         padding: var(--sch-padding-s);
