@@ -622,6 +622,11 @@ footer > p {
         border-radius: var(--sch-border-radius-s);
         padding: var(--sch-padding-s);
     }
+    #gallery > article > div {
+        height: 35%;
+        padding: var(--sch-padding-s);
+        gap: var(--sch-gap-m);
+    }
 }
 
 /* @media (max-width: 450px) {
