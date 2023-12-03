@@ -167,6 +167,44 @@ h3, h4, h5, h6, p, label, span, a {
     font-size: var(--sch-font-size-s);
 }
 
+/* SECTION 3 STEPS */
+#threeSteps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: var(--sch-padding-m);
+    gap: var(--sch-gap-m);
+    background-color: rgb(176, 101, 47);
+}
+
+.cardStep {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    width: 350px;
+    min-height: 300px;
+    gap: var(--sch-gap-l);
+    padding: var(--sch-padding-l)
+}
+
+.cardStep > h2 {
+    text-align: center;
+    border: 1px solid var(--sch-color-000);
+    border-radius: var(--sch-border-radius-s);
+    color: var(--sch-color-000);
+    font-size: var(--sch-font-size-m); 
+    padding: var(--sch-padding-m);
+}
+.cardStep > p {
+    text-align: center;
+    color: var(--sch-color-000);
+    font-size: var(--sch-font-size-s);
+}
+
 /* SECTIONS */
 section {
     width: 100%;
@@ -513,6 +551,7 @@ footer > p {
     }
     #hero.flex-container-column {   
         gap: var(--sch-gap-s);
+        height: 80svh;
         align-items: center;
     }
     
