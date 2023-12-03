@@ -61,6 +61,7 @@ h3, h4, h5, h6, p, label, span, a {
         --sch-color-sand-002: #FAEEE0;
         --sch-color-sand-003: #F9E4C8;
         --sch-color-sand-004: #F9CF93;
+        --sch-color-sand-005: #ec9c33;
 
             /* SPACINGS */
         --sch-margin-s: 5px;
@@ -175,7 +176,7 @@ h3, h4, h5, h6, p, label, span, a {
     align-items: center;
     padding: var(--sch-padding-m);
     gap: var(--sch-gap-m);
-    background-color: rgb(176, 101, 47);
+    background-color: var(--sch-color-sand-005);
 }
 
 .cardStep {
@@ -293,13 +294,12 @@ section.flex-container-row > div > p {
     gap: var(--sch-gap-m);
 }
 #gallery > article > div > p {
-    font-size: var(--sch-font-size-s);
+    font-size: var(--sch-font-size-xs);
     color: rgb(90, 90, 90);
-    text-shadow: 1px 1px 0px rgba(190, 190, 190, 0.8);
 }
 
 #gallery > article > div > p.price {    
-    font-size: var(--sch-font-size-m);
+    font-size: var(--sch-font-size-l);
 }
 
 /* PLANS */
@@ -466,6 +466,10 @@ section.flex-container-row > div > p {
     background-color: var(--sch-color-sand-004);
 }
 
+.sand-bgcolor-5 {
+    background-color: var(--sch-color-sand-005);
+}
+
 footer {
     width: 100%;
     height: 100px;
@@ -539,6 +543,17 @@ footer > p {
         width: 80%;
         text-align: center;
         font-size: var(--sch-font-size-s);
+    }
+    #threeSteps {
+        height: 100%;
+        padding: var(--sch-padding-s);
+        gap: var(--sch-gap-m);
+    }
+    
+    .cardStep {
+        justify-content: space-evenly;
+        gap: var(--sch-gap-s);
+        padding: var(--sch-padding-s);
     }
 }
 
