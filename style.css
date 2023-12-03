@@ -508,7 +508,10 @@ footer > p {
     html {
         width: 100%;
     }
-    #hero.flex-container-column {
+    #hero {
+        height: 100vh;
+    }
+    #hero.flex-container-column {   
         gap: var(--sch-gap-s);
         align-items: center;
     }
@@ -519,7 +522,7 @@ footer > p {
     }
     
     #hero > h2 {
-        font-size: var(--sch-font-size-m);
+        font-size: var(--sch-font-size-l);
         text-align: center;
     }
     
