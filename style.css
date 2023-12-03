@@ -566,8 +566,9 @@ footer > p {
     }
     #hero.flex-container-column {   
         gap: var(--sch-gap-s);
-        height: 80svh;
+        height: 100vh;
         align-items: center;
+        justify-content: space-evenly;
     }
     
     #hero > h1 {
