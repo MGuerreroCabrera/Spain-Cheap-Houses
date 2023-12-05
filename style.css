@@ -385,6 +385,21 @@ section.flex-container-row > div > p {
     padding: var(--sch-padding-m);
 }
 
+.plan-button-container > a {
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: var(--sch-font-size-xs);
+    padding: var(--sch-padding-s);
+    background-color: var(--sch-color-000);
+    color: var(--sch-color-sand-004);
+    border: 1px solid var(--sch-color-sand-004);
+    border-radius: var(--sch-border-radius-l);
+}
+.plan-button-container > a:hover {
+    transform: scale(1.5);
+}
+
 .plan-button-container > button {
     width: 50%;
     text-align: center;
@@ -478,7 +493,7 @@ footer {
 }
 
 footer > p {
-    font-size: var(--sch-font-size-m);
+    font-size: var(--sch-font-size-xs);
 }
 
 @media (max-width: 1155px){
