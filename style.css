@@ -404,6 +404,11 @@ section.flex-container-row > div > p {
     transform: scale(1.5);
 }
 
+.txt-plan-button {
+    width: 100%;
+    color: var(--sch-color-sand-004);
+}
+
 .plan-button-container > button {
     width: 50%;
     text-align: center;
