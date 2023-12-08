@@ -180,7 +180,7 @@ h3, h4, h5, h6, p, label, span, a {
     align-items: center;
     padding: var(--sch-padding-m);
     gap: var(--sch-gap-m);
-    background-color: var(--sch-color-sand-005);
+    background-color:whitesmoke;
 }
 
 .cardStep {
@@ -198,16 +198,20 @@ h3, h4, h5, h6, p, label, span, a {
 
 .cardStep > h2 {
     text-align: center;
-    border: 1px solid var(--sch-color-000);
+    border: 1px solid var(--sch-color-080);
     border-radius: var(--sch-border-radius-s);
-    color: var(--sch-color-000);
+    color: var(--sch-color-080);
     font-size: var(--sch-font-size-m); 
     padding: var(--sch-padding-m);
 }
 .cardStep > p {
     text-align: center;
-    color: var(--sch-color-000);
+    color: var(--sch-color-080);
     font-size: var(--sch-font-size-s);
+}
+
+.cardStep > img {
+    width: 40px;
 }
 
 /* SECTIONS */
