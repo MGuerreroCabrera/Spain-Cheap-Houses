@@ -193,7 +193,7 @@ h3, h4, h5, h6, p, label, span, a {
     width: 350px;
     min-height: 300px;
     gap: var(--sch-gap-l);
-    padding: var(--sch-padding-l)
+    /* padding: var(--sch-padding-l) */
 }
 
 .cardStep > h2 {
