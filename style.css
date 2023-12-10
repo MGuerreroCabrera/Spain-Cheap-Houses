@@ -322,7 +322,7 @@ section.flex-container-row > div > p {
 
 #plans > h2 {
     text-align: center;
-    padding: var(--sch-padding-m);
+    padding-bottom: var(--sch-padding-m);
 }
 
 #plans > div.plans-container {
