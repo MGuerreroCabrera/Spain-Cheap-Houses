@@ -398,7 +398,7 @@ section.flex-container-row > div > p {
     cursor: pointer;
     transition: all 0.5s;
     font-size: var(--sch-font-size-xs);
-    padding: var(--sch-padding-s);
+    padding: var(--sch-padding-s) var(--sch-padding-l);
     background-color: var(--sch-color-000);
     color: var(--sch-color-sand-004);
     border: 1px solid var(--sch-color-sand-004);
