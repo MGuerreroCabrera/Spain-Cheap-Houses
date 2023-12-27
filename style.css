@@ -129,22 +129,33 @@ h3, h4, h5, h6, p, label, span, a {
     background-size: cover;
     background-position: center;
     padding: var(--sch-padding-xl);
+    position: relative;
+}
+
+#hero::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #hero.flex-container-column {
     gap: var(--sch-gap-xl);
+    position: relative;
 }
 
 #hero > h1 {
     color: var(--sch-color-000);
     font-size: var(--sch-font-size-xxl);
-    text-shadow: var(--sch-shadow-standar);
+    /* text-shadow: var(--sch-shadow-standar); */
+    position: relative;
 }
 
 #hero > h2 {
     color: var(--sch-color-000);
     font-size: var(--sch-font-size-xl);
-    text-shadow: var(--sch-shadow-standar);
+    /* text-shadow: var(--sch-shadow-standar); */
+    position: relative;
 }
 
 .btn-hero {
@@ -156,6 +167,7 @@ h3, h4, h5, h6, p, label, span, a {
     min-width: 200px;
     cursor: pointer;
     transition: all 0.5s;
+    position: relative;
     padding: var(--sch-padding-m);
     background-color: var(--sch-color-000);
     border-radius: var(--sch-border-radius-xl);
