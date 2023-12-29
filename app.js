@@ -135,9 +135,16 @@ const rolloutFold = (arrayButtons) => {
 
 rolloutFold(arrowButtons);
 
-// for(let i = 0; i < arrowButtons.length; i++){
-//     arrowButtons[i].addEventListener("click", () => {
-//         let elemento = document.getElementById(i+1);
-//         elemento.className = "visible";
-//     })
-// }
+//* FUNCIONALIDAD PARA INSCRIPCIONES FREE
+
+const btnOpenModal = document.querySelector("#btn-open-modal");
+const btnCloseModal = document.querySelector("#btn-close-modal");
+const modal = document.querySelector("#modal-free-suscription");
+
+btnOpenModal.addEventListener("click", () => {
+    modal.showModal();
+});
+
+btnCloseModal.addEventListener("click", () => {
+    modal.close();
+});
