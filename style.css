@@ -505,11 +505,10 @@ div.flex-dialog {
 #form-subscription-free > button {
     text-align: center;
     cursor: pointer;
-    transition: all 0.5s;
-    font-size: var(--sch-font-size-xs);
-    padding: var(--sch-padding-s) var(--sch-padding-l);
-    background-color: var(--sch-color-000);
-    color: var(--sch-color-sand-004);
+    font-size: var(--sch-font-size-s);
+    padding: var(--sch-special-padding) var(--sch-padding-l);
+    background-color: #CB5455;
+    color: var(--sch-color-000);
     border: 1px solid var(--sch-color-sand-004);
     border-radius: var(--sch-border-radius-l);
 }
@@ -666,6 +665,17 @@ footer > p {
     .cardStep {
         justify-content: space-evenly;
         gap: var(--sch-gap-s);
+        padding: var(--sch-padding-s);
+    }
+
+    #modal-free-suscription {
+        width: 90%; 
+        height: 90%;
+    }
+    #form-container {
+        width: 100%;    
+        max-width: 400px;
+        height: 100%;
         padding: var(--sch-padding-s);
     }
 }
