@@ -479,8 +479,7 @@ div.flex-dialog {
 }
 
 #form-container {
-    width: 50%;    
-    max-width: 400px;
+    width: 50%;   
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -670,11 +669,11 @@ footer > p {
 
     #modal-free-suscription {
         width: 90%; 
-        height: 90%;
+        max-width: 375px;
+        height: 75%;
     }
     #form-container {
         width: 100%;    
-        max-width: 400px;
         height: 100%;
         padding: var(--sch-padding-s);
     }
